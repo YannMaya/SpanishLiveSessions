@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar  from "./components/navBar/NavBar";
+import ItemListContainer from "./components/itemListContainer/ItemListContainer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          PRIMERA SUBIDA
-        </a>
-      </header>
+    <div>
+      <h1>
+        {/* ejecucion de una funcion, no son etiqueta html */}
+        <NavBar/>
+        <ItemListContainer/>
+      </h1>
     </div>
   );
 }

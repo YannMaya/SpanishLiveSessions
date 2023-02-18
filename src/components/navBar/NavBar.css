@@ -1,0 +1,11 @@
+
+.NavBar {
+    width: 100%;
+    }
+    
+.navbar-nav {
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    }
